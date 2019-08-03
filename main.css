@@ -1,0 +1,102 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #6190e8;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#a7bfe8), to(#6190e8));
+  background: linear-gradient(to right, #a7bfe8, #6190e8);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header {
+  height: 10vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin: 40px;
+}
+
+header h1 {
+  font-family: "Baloo Chettan", cursive;
+  letter-spacing: 4px;
+  font-size: 60px;
+  color: #f03a47;
+}
+
+body div {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body input {
+  margin: 0 auto;
+  height: 5vh;
+  border: 2px solid #b94a4a;
+  border-radius: 8px;
+  width: 80%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+body input:focus {
+  border-radius: 1px;
+  border: 3px solid #e23737;
+  outline: 0;
+}
+
+body ul {
+  margin-top: 10vh;
+  background-color: rgba(128, 128, 128, 0.664);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+
+body ul li {
+  margin: 10px;
+  width: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #502828;
+  place-items: center;
+}
+
+body ul li img {
+  width: 100%;
+  max-width: 150px;
+}
+
+body ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Baloo Chettan", cursive;
+}
+/*# sourceMappingURL=main.css.map */

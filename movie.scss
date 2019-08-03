@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  place-items: center;
+}
+main {
+  background-color: rgba(0, 0, 0, 0.493);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 90vh;
+  width: 80%;
+  margin: 0 auto;
+  place-items: center;
+  padding: 60px;
+  img {
+    height: 60vh;
+  }
+  div {
+    grid-column: 3/5;
+    color: white;
+    h2 {
+      font-size: 50px;
+    }
+    h4 {
+      span {
+        font-family: "Baloo Chettan", cursive;
+        font-size: 20px;
+      }
+    }
+  }
+}

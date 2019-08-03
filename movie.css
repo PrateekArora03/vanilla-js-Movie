@@ -1,0 +1,51 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-items: center;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.493);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  height: 90vh;
+  width: 80%;
+  margin: 0 auto;
+  place-items: center;
+  padding: 60px;
+}
+
+main img {
+  height: 60vh;
+}
+
+main div {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3/5;
+  color: white;
+}
+
+main div h2 {
+  font-size: 50px;
+}
+
+main div h4 span {
+  font-family: "Baloo Chettan", cursive;
+  font-size: 20px;
+}
+/*# sourceMappingURL=movie.css.map */
