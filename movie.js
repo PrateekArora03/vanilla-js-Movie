@@ -3,12 +3,8 @@ var main = document.querySelector("main");
 var body = document.querySelector("body");
 function createMovieUI(movieRes) {
   console.log(movieRes);
-  body.style.backgroundImage = `url(http://image.tmdb.org/t/p/w500/${
-    movieRes.backdrop_path
-  })`;
-  main.innerHTML = `<img src=http://image.tmdb.org/t/p/w500/${
-    movieRes.poster_path
-  }>
+  body.style.backgroundImage = `url(http://image.tmdb.org/t/p/w500/${movieRes.backdrop_path})`;
+  main.innerHTML = `<img src=http://image.tmdb.org/t/p/w500/${movieRes.poster_path}>
   <div>
     <h2>${movieRes.title}</h2>
     <br>
